@@ -11,7 +11,7 @@ private class BusinessLogic_Tests {
      	helper.DoWork(false);
      	Test.stopTest();
      	
-     	System.assertEquals(false, myDispatcher.WasInvoked('http://my.domain.com/Internal/TpsReport'), 'Web service innappropriately invoked.');
+     	System.assertEquals(false, myDispatcher.WasInvoked('http://my.domain.com/Internal/TpsReport'), 'Web service inappropriately invoked.');
     }
     
     // Test to verify that callouts are only made when appropriate.
